@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Maizy's Form!!!</title>
+        <style media="screen">
+        body {
+            background-color:#333333;
+            padding:40px;
+            color:white;
+            font-family: verdana;
+            font-size:40px;
+            text-align: center;
+        }
+        textarea {
+            font-size: 30px;
+        }
+        #type {
+            font-size: 30px;
+        }
+        #submit {
+            font-size: 30px;
+            background-color:#999999;
+        }
+
+        </style>
+    </head>
+    <body>
+        <form action="dream.php" method="post" id="form">
+            <h1>DREAM DATABASE</h1>
+            <p>Enter your dream:</p>
+            <textarea name="dream" id="dream" placeholder="dream?" rows="6" cols="60"></textarea>
+            <p>Select the type of dream: </p>
+            <select id="type" name="type">
+              <option value="Scary">Scary</option>
+              <option value="Action">Action</option>
+              <option value="ActionII">Action II</option>
+              <option value="Sweet">Sweet</option>
+              <option value="Confusing">Confusing</option>
+              <option value="Crispy">Crispy</option>
+              <option value="Awful">Awful</option>
+              <option value="Mind-Altering">Mind-Altering</option>
+              <option value="Existential Crisis Inducing">Existential Crisis Inducing</option>
+            </select>
+            <br><br>
+            <input type="submit" name="submit" id="submit" value="SUBMIT">
+        </form>
+    </body>
+</html>
